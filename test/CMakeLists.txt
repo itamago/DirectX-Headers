@@ -21,9 +21,9 @@ project(DirectX-Headers-Test
   HOMEPAGE_URL "https://github.com/microsoft/DirectX-Headers/"
   LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
+# set(CMAKE_CXX_STANDARD 17)
+# set(CMAKE_CXX_STANDARD_REQUIRED ON)
+# set(CMAKE_CXX_EXTENSIONS OFF)
 
 set(TEST_EXES DirectX-Headers-Test DirectX-Headers-Check-Feature-Support-Test)
 

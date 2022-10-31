@@ -24,9 +24,9 @@ project(DirectX-Headers-GoogleTest-Suite
   HOMEPAGE_URL "https://github.com/microsoft/DirectX-Headers/"
   LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
+# set(CMAKE_CXX_STANDARD 17)
+# set(CMAKE_CXX_STANDARD_REQUIRED ON)
+# set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(Feature-Support-Test feature_support_test.cpp)
 target_link_libraries(Feature-Support-Test DirectX-Headers DirectX-Guids ${dxlibs} gtest_main)

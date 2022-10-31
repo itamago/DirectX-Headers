@@ -6,9 +6,9 @@ project(DirectX-Headers
     VERSION 1.606.4
 )
 
-set(CMAKE_CXX_STANDARD 14) 
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
+# set(CMAKE_CXX_STANDARD 14) 
+# set(CMAKE_CXX_STANDARD_REQUIRED ON)
+# set(CMAKE_CXX_EXTENSIONS OFF)
 
 # It's useful to know if you are a top level project or not, if your project is
 # being consumed via add_subdirectory
